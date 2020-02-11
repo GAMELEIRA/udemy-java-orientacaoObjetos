@@ -9,7 +9,7 @@ import entities.Produto;
  * AUTOR:GABRIEL GAMELEIRA DOS SANTOS
  * DATA:10/02/2020
  * HORA:18:51
- * FINALIDADE DO PROGRAMA: 
+ * FINALIDADE DO PROGRAMA: SIMULAR O ESTOQUE DE UM PRODUTO
  */
 
 public class Main {
@@ -39,6 +39,8 @@ public class Main {
 			System.out.println("Informe a quantidade de " + produto.getNome() + ":");
 
 			produto.setQuantidade(dados.nextInt());
+			
+			
 
 			do {
 			
